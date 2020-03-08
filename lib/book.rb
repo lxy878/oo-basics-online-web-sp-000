@@ -1,6 +1,6 @@
 class Book
   attr_accessor :name, :author
-  def initialize(name)
+  def initialize(title)
     @name = name
   end
   def title
